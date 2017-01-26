@@ -1,0 +1,7 @@
+<% @agencies.each do |agency|%>
+	<h2><%= agency["agency"]%></h2>
+	<h3><%= agency["platform"]%></h3>
+	<p><%= agency["metric"]%></p>
+	<p><%=agency['url']%></p>
+	<p><%= agency["date_sampled"]%></p>
+<%end%>
